@@ -1,0 +1,13 @@
+.loginPage {
+    background-image: url("https://arcmaxarchitect.com/sites/default/files/best_architect_for_multi_specialty_hospital_design.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginArea {
+    background-color: white;
+    padding: 60px 30px 30px 30px;
+    border-radius: 20px;
+}

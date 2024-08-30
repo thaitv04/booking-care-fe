@@ -1,0 +1,250 @@
+.home_overview {
+    background-color: white;
+    padding: 60px 20px;
+    margin-top: -25px;
+    border-radius: 25px;
+}
+
+.home_overview_item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.home_overview_icon {
+    background-color: var(--blue1);
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.home_overview_fa {
+    font-size: 25px;
+    color: white;
+}
+
+.home_overview_title {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.home_overview_description {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.home_overview_link {
+    font-size: 16px;
+}
+
+.home_about {
+    padding: 50px 0;
+}
+
+.home_about_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.home_about_box {
+    background-color: var(--blue2);
+    padding: 60px 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.home_about_item {
+    display: flex;
+}
+
+.home_about_icon {
+    color: var(--blue1);
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.home_about_text {
+    color: white;
+    font-size: 18px;
+}
+
+.home_about_button {
+    background-color: var(--blue1);
+    color: white;
+    border: 1px solid var(--blue1);
+    padding: 15px 0;
+    border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.home_about_button:hover {
+    background-color: white;
+    color: var(--blue1);
+    transition: all 0.3s ease;
+}
+
+.home_major {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.home_major_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue3);
+    border-radius: 25px;
+    padding: 0 20px 30px 20px;
+    border: 3px solid white;
+    min-height: 350px;
+}
+
+.home_major_item:hover {
+    border: 3px solid var(--blue1);
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.home_major_item:hover .home_major_image {
+    background-color: white;
+}
+
+.home_major_image {
+    padding: 15px;
+    border-radius: 50%;
+    border: 3px solid var(--blue1);
+    margin-top: -50px;
+    background-color: var(--blue3);
+}
+
+.home_major_image img {
+    width: 60px;
+    height: 60px;
+}
+
+.home_major_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.home_major_intro {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.home_major_link {
+    font-size: 16px;
+}
+
+.home_major_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_major_button {
+    background-color: var(--blue1);
+    border: 2px solid var(--blue1);
+    color: white;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.home_major_button:hover {
+    background-color: white;
+    color: var(--blue1);
+    transition: all 0.3s ease;
+}
+
+.home_doctor {
+    padding: 70px 0;
+}
+
+.home_doctor_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home_doctor_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--blue1);
+    padding: 7px 10px 7px 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.home_doctor_item_left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.home_doctor_icon {
+    text-align: center;
+    font-size: 20px;
+}
+
+.home_doctor_item_right {
+    padding: 15px;
+    background-color: var(--blue1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.home_article {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.home_article_major {
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid var(--blue1);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.home_article_info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .home_overview {
+        margin-top: 0px;
+    }
+
+    .home_overview_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+
+}

@@ -1,0 +1,25 @@
+.contact {
+    padding: 50px 0;
+}
+
+.contact_infor_item {
+    display: flex;
+    justify-content: start;
+}
+
+.contact_infor_icon {
+    border: 2px solid var(--blue1);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.contact_icon {
+    font-size: 25px;
+    color: var(--blue1);
+}
+
+.contact_infor_text {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}

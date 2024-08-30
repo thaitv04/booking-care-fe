@@ -1,0 +1,68 @@
+.custom-collapse .ant-collapse-header {
+    color: #ffffff !important;
+    background-color: #1677FF !important;
+    font-size: 21px !important;
+    font-weight: 500 !important;
+}
+
+.ant-table-thead tr th {
+    background-color: #1677FF !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+}
+
+.ant-form-item .ant-form-item-label label {
+    font-size: 16px;
+}
+
+/* .ant-input {
+    padding: 7px 11px;
+}
+
+.ant-input-number .ant-input-number-input {
+    padding: 7px 11px;
+}
+
+.ant-select-selector {
+    padding: 7px 11px;
+} */
+
+.ant-upload-list-item-container {
+    width: 300px !important;
+    height: 300px !important;
+    margin-top: -10px !important;
+}
+
+.ant-timeline-item-label {
+    max-width: calc(10% - 30px) !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ant-timeline-item-tail {
+    inset-inline-start: 10% !important;
+}
+
+.ant-timeline-item-head {
+    inset-inline-start: 10% !important;
+}
+
+.ant-modal-title {
+    font-size: 25px !important;
+}
+
+.ant-modal-body {
+    font-size: 18px !important;
+}
+
+.ant-timeline-item-content {
+    inset-inline-start: calc(10% + 30px) !important;
+    width: calc(90% - 40px) !important;
+}
+
+.ant-statistic-title {
+    font-size: 19px !important;
+    font-weight: bold !important;
+    color: rgb(17, 17, 17);
+}
